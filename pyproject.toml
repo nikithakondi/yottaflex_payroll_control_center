@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yottaflex-payroll-validation"
+version = "0.1.0"
+description = "Payroll validation and reconciliation challenge project"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.1", "numpy>=1.26", "streamlit>=1.36", "plotly>=5.18", "Faker>=24.0", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,6 @@
+anomaly_id,employee_id,pay_period_id,issue_type,expected_validation_result,expected_decision
+PEX-2026-000001,EMP-000001,PP-2026-01,Hours exceeding the pay-period maximum,FAIL:HOURS_PERIOD_MAX,BLOCK_EXPORT
+PEX-2026-000002,EMP-000001,PP-2026-01,Duplicate unpaid leave deductions,FAIL:DUP_UNPAID_LEAVE_DEDUCTION,BLOCK_EXPORT
+PEX-2026-000003,EMP-000002,PP-2026-02,Unapproved time entries,FAIL:TIME_UNAPPROVED,BLOCK_EXPORT
+PEX-2026-000004,EMP-000038,PP-2026-03,Duplicate allowance submissions,FAIL:DUPLICATE_ALLOWANCE,BLOCK_EXPORT
+PEX-2026-000005,EMP-000003,PP-2026-03,Payroll totals failing reconciliation,FAIL:PAYROLL_RECONCILIATION,BLOCK_EXPORT

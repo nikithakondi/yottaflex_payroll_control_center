@@ -1,0 +1,11 @@
+exception_code,employee_id,pay_period_id,validation_rule,severity,status,validation_status,message,expected_value,actual_value,detected_at,entity_type,entity_id
+PEX-2026-000001,EMP-000001,PP-2026-01,HOURS_PERIOD_MAX,critical,resolved,resolved,Hours Period Max,200.0,333.0,2026-10-31 08:59:36,employee_period_hours,EMP-000001:PP-2026-01
+PEX-2026-000002,EMP-000001,PP-2026-01,DUP_UNPAID_LEAVE_DEDUCTION,critical,resolved,resolved,Dup Unpaid Leave Deduction,"""one deduction per approved unpaid leave""",2,2026-10-31 08:59:36,deductions,DED-2026-0000201
+PEX-2026-000008,EMP-000001,PP-2026-01,HOURS_PERIOD_MAX,critical,open,open,Hours Period Max,200.0,333.0,2026-10-31 11:07:54,employee_period_hours,EMP-000001:PP-2026-01
+PEX-2026-000009,EMP-000001,PP-2026-01,DUP_UNPAID_LEAVE_DEDUCTION,critical,open,open,Dup Unpaid Leave Deduction,"""one deduction per approved unpaid leave""",2,2026-10-31 11:07:54,deductions,DED-2026-0000201
+PEX-2026-000003,EMP-000002,PP-2026-02,TIME_UNAPPROVED,critical,resolved,resolved,Time Unapproved,"""approval_status=approved""","""pending""",2026-10-31 08:59:36,time_entries,TIME-2026-00000611
+PEX-2026-000010,EMP-000002,PP-2026-02,TIME_UNAPPROVED,critical,open,open,Time Unapproved,"""approval_status=approved""","""pending""",2026-10-31 11:07:55,time_entries,TIME-2026-00000611
+PEX-2026-000004,EMP-000038,PP-2026-03,DUPLICATE_ALLOWANCE,critical,resolved,resolved,Duplicate Allowance,"""one submission for source reference""",2,2026-10-31 08:59:37,allowances,ALW-2026-0000201
+PEX-2026-000005,EMP-000003,PP-2026-03,PAYROLL_RECONCILIATION,critical,resolved,resolved,Payroll Reconciliation,"{""gross_pay"":3345.74,""net_pay"":3345.74}","{""gross_pay"":3370.74,""net_pay"":3370.74}",2026-10-31 08:59:37,payroll_results,203
+PEX-2026-000006,EMP-000038,PP-2026-03,DUPLICATE_ALLOWANCE,critical,open,open,Duplicate Allowance,"""one submission for source reference""",2,2026-10-31 10:56:42,allowances,ALW-2026-0000201
+PEX-2026-000007,EMP-000003,PP-2026-03,PAYROLL_RECONCILIATION,critical,open,open,Payroll Reconciliation,"{""gross_pay"":3345.74,""net_pay"":3345.74}","{""gross_pay"":3370.74,""net_pay"":3370.74}",2026-10-31 10:56:42,payroll_results,203

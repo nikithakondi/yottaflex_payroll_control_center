@@ -1,0 +1,42 @@
+[
+  {
+    "anomaly_id": "PEX-2026-000001",
+    "employee_id": "EMP-000001",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "Hours exceeding the pay-period maximum",
+    "expected_validation_result": "FAIL:HOURS_PERIOD_MAX",
+    "expected_decision": "BLOCK_EXPORT"
+  },
+  {
+    "anomaly_id": "PEX-2026-000002",
+    "employee_id": "EMP-000001",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "Duplicate unpaid leave deductions",
+    "expected_validation_result": "FAIL:DUP_UNPAID_LEAVE_DEDUCTION",
+    "expected_decision": "BLOCK_EXPORT"
+  },
+  {
+    "anomaly_id": "PEX-2026-000003",
+    "employee_id": "EMP-000002",
+    "pay_period_id": "PP-2026-02",
+    "issue_type": "Unapproved time entries",
+    "expected_validation_result": "FAIL:TIME_UNAPPROVED",
+    "expected_decision": "BLOCK_EXPORT"
+  },
+  {
+    "anomaly_id": "PEX-2026-000004",
+    "employee_id": "EMP-000038",
+    "pay_period_id": "PP-2026-03",
+    "issue_type": "Duplicate allowance submissions",
+    "expected_validation_result": "FAIL:DUPLICATE_ALLOWANCE",
+    "expected_decision": "BLOCK_EXPORT"
+  },
+  {
+    "anomaly_id": "PEX-2026-000005",
+    "employee_id": "EMP-000003",
+    "pay_period_id": "PP-2026-03",
+    "issue_type": "Payroll totals failing reconciliation",
+    "expected_validation_result": "FAIL:PAYROLL_RECONCILIATION",
+    "expected_decision": "BLOCK_EXPORT"
+  }
+]

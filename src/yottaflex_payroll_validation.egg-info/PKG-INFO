@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: yottaflex-payroll-validation
+Version: 0.1.0
+Summary: Payroll validation and reconciliation challenge project
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.1
+Requires-Dist: streamlit>=1.32
+Requires-Dist: plotly>=5.18
+Requires-Dist: Faker>=24.0

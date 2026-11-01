@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.db
+data/*.db-*
+data/**/*.db
+data/**/*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+exports/*
+!exports/.gitkeep
+.streamlit/secrets.toml
+.coverage
+htmlcov/
+# Generated project files
+.schema_migration_work/
+data/generated/
+
+# Database files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Python cache
+__pycache__/
+*.pyc

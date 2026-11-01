@@ -1,0 +1,2 @@
+from payroll_validation.dashboard.streamlit_pages import leave_management
+leave_management()
