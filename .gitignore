@@ -28,3 +28,13 @@ data/generated/
 # Python cache
 __pycache__/
 *.pyc
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+*.db
+*.sqlite3
+*.backup-*
+.DS_Store
